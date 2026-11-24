@@ -182,3 +182,25 @@ body {
   width: 320px !important;
   margin: 0 !important;
 }
+
+
+/* DEIXA RESPONSIVO NO CELULAR */
+@media (max-width: 768px) {
+  .hero {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    text-align: center !important;
+  }
+
+  .yt-card-lado {
+    position: static !important;
+    transform: none !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    margin-top: 25px !important;
+  }
+
+  .hero-stats {
+    justify-content: center !important;
+  }
+}
